@@ -1,0 +1,52 @@
+/* تنسيق الحاوية الرئيسية */
+.container {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* تنسيق العناوين */
+h2 {
+    text-align: center;
+}
+
+/* تنسيق النموذج */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* تنسيق الحقول */
+input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+/* تنسيق الزر */
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* تنسيق الرسالة الخطأ */
+#error-message {
+    color: red;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
